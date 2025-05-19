@@ -1,0 +1,161 @@
+mkdir c:/os/vm/
+mvx
+which git tree
+tree
+tree
+mkdir ~/repogit
+cd ~/repogit
+mkdir ~/repogit
+cd ~/repogit
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/tu_usuario/UTNFRA_SO_1P2C_2024_<Dzumaga>.git
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source ~/.bashrc && history -a
+mkdir repogit
+cd repogit
+git clone https://github.com/AxelDzumaga/UTNFRA_SO_1P2C_2024_-Tu-Apellido-Reemplaza-Dzumaga.git
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+cd UTNFRA_SO_1P2C_2024_<Dzumaga>
+cd UTNFRA_SO_1P2C_2024_dzumaga
+cd UTNFRA_SO_1P2C_2024_Dzumaga
+ls
+lsblk
+mkdir -p ~/vagrant/utn-examen
+cd ~/vagrant/utn-examen
+vagrant init generic/ubuntu2204
+vagrant up
+clear
+mkdir -p /d/vagrant/config
+echo $VAGRANT_HOME
+mkdir -p ~/vagrant/utn-examen
+cd ~/vagrant/utn-examen
+vagrant init generic/ubuntu2204
+vagrant up
+vagrant box remove generic/ubuntu2204
+mkdir -p D:/vagrant/utn-examen
+cd D:/vagrant/utn-examen
+vagrant init generic/ubuntu2204
+vagrant up
+vagrant box remove generic/ubuntu2204
+vagrant up
+vagrant box remove generic/ubuntu2204 --all
+vagrant box remove generic/ubuntu2204 --all
+vagrant destroy -f
+vagrant box remove generic/ubuntu2204 --all
+vagrant up
+vagrant up
+vagrant up
+cd /d/vagrant/utn-examen
+vagrant up
+[200~cd /d/vagrant/utn-examen
+cd /d/vagrant/utn-examen
+vagrant box remove generic/ubuntu2204 --all
+vagrant up
+vagrant up
+mkdir -p /d/vagrant/utn-examen
+cd /d/vagrant/utn-examen
+vagrant init generic/ubuntu2204
+vagrant up
+vagrant destroy -f
+vagrant box remove generic/ubuntu2204 --all
+vagrant up
+vagrant destroy -f
+vagrant box remove generic/ubuntu2204 --all
+nano vangrantfile
+vagrant up
+vagrant destroy -f
+vagrant box remove generic/ubuntu2204 --all
+nano vagrantfile
+vagrant up
+vagrant ssh
+vagrant halt
+mkdir -p disks
+VBoxManage createmedium disk --filename disks/disk10GB.vdi --size 10240 --format VDI
+VBoxManage createmedium disk --filename disks/disk2GB.vdi  --size 2048  --format VDI
+"/c/Program Files/Oracle/VirtualBox/VBoxManage" createmedium disk --filename disks/disk10GB.vdi --size 10240 --format VDI
+"/c/Program Files/Oracle/VirtualBox/VBoxManage" createmedium disk --filename disks/disk2GB.vdi --size 2048 --format VDI
+mkdir -p disks
+"/c/Program Files/Oracle/VirtualBox/VBoxManage" createmedium disk --filename disks/disk10GB.vdi --size 10240 --format VDI
+"/c/Program Files/Oracle/VirtualBox/VBoxManage" createmedium disk --filename disks/disk2GB.vdi --size 2048 --format VDI
+nano vagrantfile
+vagrant halt
+vagrant up
+nano vagrantfile
+vagrant reload
+vagrant ssh
+cd ~/UTNFRA_SO_1P2C_2024_Dzumaga
+cd ~/UTNFRA_SO_1P2C_2024_Dzumaga
+vagrant ssh
+git clone https://github.com/upszot/UTNFRA_SO_onBording.git
+git clone https://github.com/upszot/UTNFRA_SO_onBording.git
+cd "/ruta/a/UTN-FRA_SO_onBording-master"
+git init
+git add .
+git commit -m "Examen 1P2C 2024 completado"
+git branch -M main
+git remote add origin https://github.com/tu_usuario/tu_repositorio.git
+git push -u origin main
+cd /d/vagrant/utn-examen
+cd /d/vagrant/utn-examen
+git init
+git add .
+git commit -m "feat: Examen 1P2C 2024 completo"
+git branch -M main
+git remote add origin https://github.com/axeldzumaga/UTNFRA_SO_1P2C_2024_Dzumaga.git
+git push -u origin main
+git config --global user.email "axeldzumagautn@gmail.com"
+git config --global user.name "Axel Dzumaga"
+cd "/d/vagrant/utn-examen"
+git init
+git add .
+rm -rf UTNFRA_SO_onBording/.git
+git add .
+git commit -m "Examen 1P2C 2024 completado"
+git branch -M main
+git remote add origin https://github.com/axeldzumaga/UTNFRA_SO_1P2C_2024_Dzumaga.git
+git push -u origin main
+git pull --rebase origin main
+git push -u origin main
+echo "disks/" >> .gitignore
+echo ".vagrant/" >> .gitignore
+git add .gitignore
+git stash save "Mis cambios locales"
+git pull --rebase origin main
+git stash pop
+echo "disks/" >> .gitignore
+git rm --cached -r disks/
+git add .
+git commit -m "Ignorados los archivos de disco para el push"
+git push -u origin main
+git pull --rebase origin main
+git push -u origin main
+git rebase --skip
+disks/
+git rm --cached -r disks/
+mkdir ../temp_disks
+mv disks/disk*.vdi ../temp_disks/
+git rebase --continue
+git push origin main
+ssh-keygen -t ed25519
+cat ~/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:AxelDzumaga/TP1_AySO.git
+cd ~/repogit/TP1_AySO
+pwd
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+cat <<E0F>> README.md
+Alumno: Axel Dzumaga
+Division: 313
+Turno: noche
+E0F
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo readme y datos de usuario"
+git push origin main
+history -a
